@@ -30,8 +30,6 @@ namespace ImportGeoNames
                         {
                             Id = extendedGeoName.Id,
                             Name = extendedGeoName.Name,
-                            Latitude = extendedGeoName.Latitude,
-                            Longitude = extendedGeoName.Longitude,
                             CountryCode = extendedGeoName.CountryCode,
                             FeatureClass = extendedGeoName.FeatureClass,
                             FeatureCode = extendedGeoName.FeatureCode,
@@ -44,8 +42,6 @@ namespace ImportGeoNames
                     else
                     {
                         geoName.Name = extendedGeoName.Name;
-                        geoName.Latitude = extendedGeoName.Latitude;
-                        geoName.Longitude = extendedGeoName.Longitude;
                         geoName.CountryCode = extendedGeoName.CountryCode;
                         geoName.FeatureClass = extendedGeoName.FeatureClass;
                         geoName.FeatureCode = extendedGeoName.FeatureCode;
